@@ -238,8 +238,8 @@ public class Doctor implements Comparable<Doctor> {
     public static void main(String args[]) {
         try{
             Doctor doctor = new Doctor.Builder()
-                    .setFirstname("vitaliy")
-                    .setLastname("lev6fosj")
+                    .setFirstname("stepan")
+                    .setLastname("tkach")
                     .setDateOfBirth(LocalDate.of(2023, 1, 9))
                     .build();
         } catch(IllegalArgumentException e){
