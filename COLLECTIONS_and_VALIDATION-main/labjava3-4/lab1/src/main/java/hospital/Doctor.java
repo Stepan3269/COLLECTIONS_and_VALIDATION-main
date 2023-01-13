@@ -239,7 +239,7 @@ public class Doctor implements Comparable<Doctor> {
         try{
             Doctor doctor = new Doctor.Builder()
                     .setFirstname("stepan")
-                    .setLastname("tkach")
+                    .setLastname("lev6fosj")
                     .setDateOfBirth(LocalDate.of(2023, 1, 9))
                     .build();
         } catch(IllegalArgumentException e){
